@@ -15,7 +15,8 @@ public class arraylistmethodsdemo2 {
 		//remove method is used to remove the value
 		language.remove(1);
 		language.remove("PHP");
-		System.out.println(language);
+		//System.out.println(language);
+		
 		
 		
 		ArrayList<Integer> marks = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6));
@@ -23,7 +24,7 @@ public class arraylistmethodsdemo2 {
 		//remove by condition with lambda function
 		marks.removeIf(MK -> MK%2 ==0);
 		
-		System.out.println(marks);
+	//	System.out.println(marks);
 		
 		
 		//retain all will retain the value

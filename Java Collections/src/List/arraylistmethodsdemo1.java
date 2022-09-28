@@ -10,6 +10,7 @@ public class arraylistmethodsdemo1 {
 		students.add("Vijay");
 		students.add("Rahul");
 		students.add("manish");
+		students.add("manish");
 		
 		ArrayList<String> subject = new ArrayList<String>();
 		subject.add("Maths");
@@ -20,15 +21,15 @@ public class arraylistmethodsdemo1 {
 		students.addAll(subject);
         System.out.println(students);
       
-        //combines two array based on index
-        students.addAll(1, subject);
-        System.out.println(students);
-        
-        //contains method check the value is present or not and will return boolean value
-      System.out.println(students.contains("vimal"));  
-      
-      //index of method checks the index value
-      System.out.println( students.indexOf("manish")>9);
+//        //combines two array based on index
+//        students.addAll(1, subject);
+//        System.out.println(students);
+//        
+//        //contains method check the value is present or not and will return boolean value
+//      System.out.println(students.contains("vimal"));  
+//      
+//      //index of method checks the index value
+//      System.out.println( students.indexOf("manish")>9);
       
       //checks the last index value of array list
   System.out.println(students.lastIndexOf("manish"));    

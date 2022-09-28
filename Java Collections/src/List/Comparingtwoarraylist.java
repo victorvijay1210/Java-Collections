@@ -12,7 +12,7 @@ public class Comparingtwoarraylist {
 		//sort then equals
 		
 		ArrayList<String> L1 = new ArrayList<String>(Arrays.asList("A","B","C","D","E"));
-		ArrayList<String> L2 = new ArrayList<String>(Arrays.asList("A","B","C","D","G"));
+		ArrayList<String> L2 = new ArrayList<String>(Arrays.asList("A","B","C","E","D"));
 		
 		Collections.sort(L1);
 		Collections.sort(L2);

@@ -19,6 +19,8 @@ public class RemoveDuplicateElementsfromarraylist {
 	 
 	 ArrayList<Integer> withoutduplicate = new ArrayList<Integer>(linkedhasset);
 	 
+//	 System.out.println(linkedhasset.retainAll(withoutduplicate));
+	 
 	 System.out.println(withoutduplicate);
 
 	 
