@@ -10,7 +10,6 @@ public class arraylistmethodsdemo1 {
 		students.add("Vijay");
 		students.add("Rahul");
 		students.add("manish");
-		students.add("manish");
 		
 		ArrayList<String> subject = new ArrayList<String>();
 		subject.add("Maths");

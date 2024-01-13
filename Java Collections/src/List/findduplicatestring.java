@@ -26,6 +26,30 @@ public class findduplicatestring {
 	     
 	     System.out.println(duplicateCompanies);
 	  
+	     //another way
+	  // Creating an ArrayList of integers with some duplicate elements
+	        List<Integer> numbers1 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3));
+
+	        // Creating two HashSet objects to keep track of unique and duplicate elements
+	        Set<Integer> uniqueNumbers = new HashSet<>();
+	        Set<Integer> duplicateNumbers = new HashSet<>();
+
+	        
+	        // Iterating through the elements of the ArrayList
+	        for (Integer number : numbers1) {
+	        	
+	        	
+	            // Trying to add the current number to the unique set
+	            if (!uniqueNumbers.add(number)) {
+	                // If the add operation fails (returns false), it means the number is already in the set
+	                // So, it's a duplicate, and we add it to the duplicate set
+	                duplicateNumbers.add(number);
+	            }
+	        }
+
+	        // Printing the duplicate elements
+	        System.out.println("Duplicate elements: " + duplicateNumbers);
+	     
 }
 	
 }
